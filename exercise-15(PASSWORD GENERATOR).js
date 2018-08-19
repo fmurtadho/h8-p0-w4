@@ -6,7 +6,7 @@ function changeVocals (str) {
     var afterVl = 'bjvfp';
 
     for ( var i = 0 ; i < str.length ; i++){
-        if(str[i] === vocalsU[0]){ //a
+        if(str[i] === vocalsU[0]){      //a
             output = output + afterVu[0]
         }else if (str[i] === vocalsL[0]){
             output = output + afterVl[0]
