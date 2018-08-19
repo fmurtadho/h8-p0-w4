@@ -17,7 +17,7 @@ function checkAB(input) {
             var min = a[j]-b[k] //posisi a dikurangi posisi b
             var min2 = b[k]-a[j] //posisi b dikurangi posisi a
         
-            if(min == 4 || min2 == 4 || min == -4 || min2 == -4){ //jika hasilnya 4 / -4 artinya ada jarak 3 karakter (4 karena saat di push juga di + 1. Jarak aslinya 3)
+            if(min == 4 || min2 == 4 || min == -4 || min2 == -4){ //jika hasilnya 4 / -4 artinya ada jarak 3 karakter ()
                 counter = counter + 1
             }
         
