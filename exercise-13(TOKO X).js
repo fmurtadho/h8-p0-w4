@@ -28,7 +28,7 @@ function countProfit(belanja) {
         }else if(belanja[j].product === 'Sweater Uniklooh' && belanja[j].amount <= arrBarang[2].leftOver){
             arrBarang[2].shoppers.push(belanja[j].name)
             arrBarang[2].leftOver = arrBarang[2].leftOver - belanja[j].amount
-            arrBarang[2].totalProfit = arrBarang[1].totalProfit + (175000*belanja[j].amount)
+            arrBarang[2].totalProfit = arrBarang[2].totalProfit + (175000*belanja[j].amount)
         }
     }
     
