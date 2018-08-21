@@ -40,3 +40,4 @@ console.log(hitungHuruf('aku adalah anak gembala')); // adalah
 console.log(hitungHuruf('rajin pangkal kaya')); // pangkal
 console.log(hitungHuruf('mengayuh perahu di danau')); // danau
 console.log(hitungHuruf('abcdefghijklmnopqrstuvwxyz')) //-1
+console.log(hitungHuruf('I am a developer passionate')) // output masih developer, harusnya passionate
